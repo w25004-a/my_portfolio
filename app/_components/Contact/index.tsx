@@ -4,8 +4,8 @@ import { content, type Language, text } from "@/app/content";
 import SectionHeading from "../SectionHeading";
 import styles from "./index.module.css";
 
-const EMAIL = "your-email@example.com";
-const GITHUB_URL = "https://github.com/your-username";
+const EMAIL = "w25004@osfl.ac.jp";
+const GITHUB_URL = "https://github.com/w25004-a";
 
 type ContactProps = { language: Language };
 
