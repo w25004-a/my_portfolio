@@ -10,8 +10,21 @@ export default function Hero({ language }: HeroProps) {
     <section id="top" className={styles.hero} aria-labelledby="hero-title">
       <div className={styles.copy}>
         <p className="eyebrow">{text(content.hero.eyebrow, language)}</p>
-        <h1 id="hero-title">{text(content.hero.title, language)}</h1>
-        <p className={styles.description}>{text(content.hero.description, language)}</p>
+        <h1
+          id="hero-title"
+          className={language === "ja" ? styles.japaneseTitle : undefined}
+        >
+          {text(content.hero.title, language)}
+        </h1>
+        <h1
+          id="hero-subtitle"
+          className={language === "ja" ? styles.japaneseTitle : undefined}
+        >
+          {text(content.hero.Subtitle, language)}
+        </h1>
+        <p className={styles.description}>
+          {text(content.hero.description, language)}
+        </p>
 
         <div className={styles.actions}>
           <a className="button buttonPrimary" href="#projects">
@@ -27,7 +40,13 @@ export default function Hero({ language }: HeroProps) {
       </div>
 
       <div className={styles.image} aria-hidden="true">
-        <Image src="/hero.webp" alt="" fill sizes="(max-width: 800px) 100vw, 45vw" priority />
+        <Image
+          src="/hero.webp"
+          alt=""
+          fill
+          sizes="(max-width: 800px) 100vw, 45vw"
+          priority
+        />
       </div>
     </section>
   );

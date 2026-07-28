@@ -1,3 +1,5 @@
+import { Subtitles } from "lucide-react";
+
 export type Language = "en" | "ja";
 export type LocalizedText = Readonly<Record<Language, string>>;
 
@@ -13,7 +15,8 @@ export const content = {
   ],
   hero: {
     eyebrow: { en: "WEB PROGRAMMING STUDENT", ja: "WEBプログラミング学生" },
-    title: { en: "Hi, I'm ARPAN.", ja: "こんにちは、アルパンです。" },
+    title: { en: "Hi, I'm ARPAN.", ja: "こんにちは、" },
+    Subtitle: { en:"", ja: "アルパンです。" },
     description: {
       en: "I'm a WEB PROGRAMMING Student studying in Japan.",
       ja: "私は日本でWebプログラミングを学んでいる学生です。",

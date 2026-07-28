@@ -8,7 +8,15 @@
   scroll-margin-top: 88px;
 }
 
-.copy { max-width: 660px; }
+.copy {
+  max-width: 660px;
+}
+
+.copy .japaneseTitle {
+  font-size: clamp(2.75rem, 5.5vw, 5.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
 
 .description {
   max-width: 620px;
@@ -49,7 +57,15 @@
 }
 
 @media (max-width: 560px) {
-  .image { width: min(82vw, 310px); }
+  .copy .japaneseTitle {
+    font-size: clamp(2.25rem, 11vw, 3.5rem);
+  }
 
-  .actions :global(.button) { width: 100%; }
+  .image {
+    width: min(82vw, 310px);
+  }
+
+  .actions :global(.button) {
+    width: 100%;
+  }
 }
