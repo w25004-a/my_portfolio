@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Shift management system preview</title>
+  <desc id="desc">A dashboard with employee data, schedule rows, and status indicators.</desc>
+  <rect width="1200" height="720" fill="#0d0d0d"/>
+  <rect x="70" y="55" width="1060" height="610" rx="28" fill="#171717" stroke="#343434" stroke-width="3"/>
+  <rect x="70" y="55" width="225" height="610" rx="28" fill="#202020"/>
+  <rect x="120" y="105" width="125" height="22" rx="11" fill="#d8ff52"/>
+  <rect x="120" y="190" width="116" height="14" rx="7" fill="#777"/><rect x="120" y="238" width="96" height="14" rx="7" fill="#555"/><rect x="120" y="286" width="110" height="14" rx="7" fill="#555"/>
+  <rect x="345" y="105" width="315" height="38" rx="10" fill="#f3f3f3"/>
+  <rect x="345" y="180" width="210" height="100" rx="18" fill="#222"/><rect x="575" y="180" width="210" height="100" rx="18" fill="#222"/><rect x="805" y="180" width="255" height="100" rx="18" fill="#222"/>
+  <rect x="345" y="320" width="715" height="250" rx="18" fill="#202020" stroke="#393939"/>
+  <rect x="380" y="355" width="645" height="18" rx="9" fill="#555"/>
+  <rect x="380" y="405" width="150" height="22" rx="11" fill="#777"/><rect x="575" y="405" width="180" height="22" rx="11" fill="#444"/><rect x="900" y="405" width="90" height="22" rx="11" fill="#d8ff52"/>
+  <rect x="380" y="458" width="170" height="22" rx="11" fill="#777"/><rect x="575" y="458" width="140" height="22" rx="11" fill="#444"/><rect x="900" y="458" width="90" height="22" rx="11" fill="#555"/>
+  <rect x="380" y="511" width="130" height="22" rx="11" fill="#777"/><rect x="575" y="511" width="195" height="22" rx="11" fill="#444"/><rect x="900" y="511" width="90" height="22" rx="11" fill="#d8ff52"/>
+</svg>

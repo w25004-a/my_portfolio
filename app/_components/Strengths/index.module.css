@@ -1,0 +1,47 @@
+.strengths {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 64px;
+}
+
+.list {
+  display: grid;
+  gap: 24px;
+}
+
+.list article {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.list p { margin-bottom: 0; }
+
+.certifications {
+  display: flex;
+  gap: 16px;
+  margin-top: 36px;
+  padding: 22px;
+  background: var(--surface);
+  border-radius: 18px;
+}
+
+.certifications svg {
+  flex: 0 0 auto;
+  color: var(--accent);
+}
+
+.certifications ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 860px) {
+  .strengths {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

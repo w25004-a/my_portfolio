@@ -1,0 +1,11 @@
+.footer {
+  width: min(100% - 32px, var(--max-width));
+  margin-inline: auto;
+  padding: 32px 0 48px;
+  border-top: 1px solid var(--line);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.86rem;
+}
