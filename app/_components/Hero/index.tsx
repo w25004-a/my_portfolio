@@ -41,7 +41,7 @@ export default function Hero({ language }: HeroProps) {
 
       <div className={styles.image} aria-hidden="true">
         <Image
-          src="/hero.webp"
+          src="/Arpan.JPG"
           alt=""
           fill
           sizes="(max-width: 800px) 100vw, 45vw"

@@ -84,7 +84,7 @@ export const content = {
         stack: ["Next.js", "REST API", "JavaScript"],
         image: "/projects/quiz-preview.svg",
         imageAlt: { en: "Preview of the online quiz application", ja: "オンラインクイズアプリのプレビュー" },
-        demoUrl: "",
+        demoUrl: "https://online-quiz-alpha-olive.vercel.app/",
         sourceUrl: "",
       },
       {
